@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <style>
+    .container {
+      width: 500px;
+      height: 400px;
+      background-color: royalblue;
+      position: relative;
+    }
+    .item {
+      width: 100px;
+      height: 100px;
+      background-color: orange;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      
+    }
+  </style> -->
+  <style>
+    .container {
+      width: 500px;
+      background-color: royalblue;
+    }
+    .container .item {
+      width: 100%;
+      height: 0;
+      padding-top: 50%;
+    }
+    /* height의 값이 0이지만 padding-top의 50%는 부모요소의 width 값에 영향을 받음
+    16:9 의 비율 %는 56.25%(중요) */
+  </style>
+</head>
+<!-- <body>
+  <div class="container">
+    <div class="item"></div>
+  </div> -->
+<div class="container">
+  <div class="item"></div>
+</div>
+</body>
+</html>
